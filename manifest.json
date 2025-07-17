@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Search Results Extractor",
+  "description": "Extracts and saves links from Google search results.",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Search Results Extractor"
+  }
+}
